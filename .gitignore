@@ -1,0 +1,5 @@
+pretrained_model/
+__pycache__/
+models/
+design/
+.DS_Store
