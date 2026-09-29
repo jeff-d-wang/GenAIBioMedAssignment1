@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=progen-train
 #SBATCH --partition=GPU-shared
-#SBATCH --gres=gpu:v100-32:1
+#SBATCH --gres=gpu:h100-80:1
 #SBATCH --ntasks-per-node=5
-#SBATCH --time=12:00:00
+#SBATCH --time=04:00:00
 #SBATCH --output=logs/train_%j.out
 #SBATCH --error=logs/train_%j.err
 # --mail-type/--mail-user: uncomment to get an email when the job ends

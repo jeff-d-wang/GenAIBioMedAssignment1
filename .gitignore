@@ -2,4 +2,5 @@ pretrained_model/
 __pycache__/
 models/
 design/
+logs/
 .DS_Store
